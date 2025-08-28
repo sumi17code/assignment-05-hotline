@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency-Hotline</title>
+
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Nav bar start-->
+    <nav class="w-full bg-white lg:px-[60px] px-[20px] py-[24px]">
+
+        <div class="flex justify-between items-center w-full">
+            <!-- Nav bar left side logo and name -->
+            <div class="flex items-center gap-4 sm:gap-8">
+                <img src="assets/logo.png" alt="bangladesh logo" class="lg:w-[50px] lg:h-[50px] w-[20px] h-[20px]">
+                <h3 class="lg:w-[135.72px] lg:h-[44.69px] w-[20px]  text-[#006747] font-bold text-shadow-md">Emergency <br> Service</h3>
+            </div>
+            <!-- nav bar right side section -->
+
+            <div class="flex items-center gap-5">
+                <div class="flex items-center gap-2  bg-green-50 lg:w-[123px] lg:h-[52px] rounded-[50px] lg:px-[30px] lg:py-[12px] px-2 py-1.5">
+                    <img src="assets/heart.png" alt="heart icon" class="lg:w-[30px] lg:h-[30px] w-[10px] h-[10px]">
+                    <span id="heartCount" class="font-medium">0</span>
+                    
+                </div>
+                <div class="flex items-center gap-2 bg-green-50 lg:w-[123px] h-[52px] rounded-[50px] lg:px-[30px] lg:py-[12px] px-2 py-1.5">
+                    <span id="coinCount" class="font-medium">100</span>
+                    <img src="assets/coin.png" alt="coin" class="lg:w-[24px] lg:h-[24px] w-[15px] h-[15px]">
+                </div>
+                <div class="flex items-center gap-2 bg-green-600 text-white rounded-[50px] lg:px-[36px] lg:py-[12px] px-[10px] py-1 font-bold">
+                    <span id="copyCount">0</span>
+                    <span>Copy</span>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero Section full page div -->
+    <div>
+        <div class="text-center w-full lg:h-[239px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] px-[60px] py-[12px]">
+            <img src="assets/logo-dark.png" alt="logo dark" class="mx-auto mb-4 w-20 h-20 rounded-full">
+            <h1 class="my-[11px] text-white font-bold lg:text-[40px] text-[20px]">Emergency Service Directory</h1>
+            <p class="my-[11px] text-white font-bold lg:text-[20px] text-[10px]">Government Emergency Services at Your Fingertip - A Project by  Government 
+                of the People's Republic of Bangladesh
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Main Section -->
+
+    <main class="bg-green-50">
+         <!-- Card section -->
+
+        <section >
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+                <!-- card 1 -->
+                <div class=" bg-white px-[32px] py-[32px] rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/emergency.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4 ">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">National Emergency Number</h1>
+                    <p class="text-gray-400 text-[18px]">National Emergency</p>
+                    <p class="font-bold">999</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4 class="text-gray-400">All</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/police.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">police Helpline Number</h1>
+                    <p class="text-gray-400 text-[18px]">Police</p>
+                    <p class="font-bold">999</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Police</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- card 3 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/fire-service.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Fire Service Number</h1>
+                    <p class="text-gray-400 text-[18px]">Fire Service</p>
+                    <p class="font-bold">999</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Fire</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- card 4 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/ambulance.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Ambulance Service</h1>
+                    <p class="text-gray-400 text-[18px]">Ambulance</p>
+                    <p class="font-bold">1994-999999</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Health</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+
+                <!-- card 5 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/maternity.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Women & Child Helpline</h1>
+                    <p class="text-gray-400 text-[18px]">Women & Child Helpline</p>
+                    <p class="font-bold">109</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Help</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- card 6 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/investigation.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Anti-Corruption Helpline</h1>
+                    <p class="text-gray-400 text-[18px]">Anti-Corruption</p>
+                    <p class="font-bold">106</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Govt.</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- card 7 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/light-bulb.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Electricity Helpline</h1>
+                    <p class="text-gray-400 text-[18px]">Electricity Outage</p>
+                    <p class="font-bold">16216</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Electricity</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- card 8 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/brac.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Brac Helpline</h1>
+                    <p class="text-gray-400 text-[18px]">Brac</p>
+                    <p class="font-bold">16445</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>NGO</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+
+                <!-- card 9 -->
+
+                <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="flex justify-between">
+                        <img src="assets/Bangladesh-Railway.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
+                        <img src="assets/like.png" alt="" class="h-4">
+                    </div>
+                    <h1 class="font-semibold text-[24px]">Bangladesh Railway Helpline</h1>
+                    <p class="text-gray-400 text-[18px]">Bangladesh Railway</p>
+                    <p class="font-bold">163</p>
+                    <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
+                        <h4>Travel</h4>
+                    </div>
+                    <button class="btn btn-sm px-[16px] py-[16px]">
+                        <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
+                    
+                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                        <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- call History Section -->
+
+        <section class="bg-white rounded-lg shadow p-4 h-fit">
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="font-bold text-lg flex items-center gap-2"><img src="assets/history.png" alt="">Call History</h2>
+                <button id="clearHistory" class="text-sm text-white bg-red-500 px-3 py-1 rounded">Clear</button>
+            </div>
+            <ul id="historyList" class="space-y-2 text-sm text-gray-700">
+                <li class="text-gray-400">No calls yet</li>
+            </ul>
+        </section>
+    </main>
+
+   
+
+
+
+ 
+    
+</body>
+</html>
