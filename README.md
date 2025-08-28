@@ -23,4 +23,15 @@ Answer:  At first i create an element (document.createElement("tag")) then set a
 3. What is Event Bubbling and how does it work?
 
 
-Answer:  
+Answer:  Event bubbling means when I trigger an event on a child element, it also passes up to its parent elements one by one.
+
+At first it works by first running the event on the clicked element, then it automatically moving up the DOM tree to its parent, after that grandparent until it reaches the on the top (document or window).
+
+4. What is Event Delegation in JavaScript? Why is it useful?
+
+Answer:  In JavaScript Event Delegation means by attaching a single event listener to a parent element to handle events on its child elements by using event bubbling.
+
+It is useful because its better performance, dynamically added its children and it no need to attach listeners to every child.
+
+
+5. 
