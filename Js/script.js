@@ -38,12 +38,18 @@ let coinCount = 100;
       const timeString = now.toLocaleTimeString();
 
       const li = document.createElement("li");
-      li.className = "flex justify-between  items-center bg-gray-100 rounded-lg p-2 shadow-sm";
-      li.innerHTML = `
-        <span>${serviceName} - ${hotlineNumber}</span>
-        <span class="text-gray-500">${timeString}</span>
-      `;
-      historyList.appendChild(li);
+        li.className = "bg-gray-100 rounded-lg p-3 shadow-sm mb-2"; 
+        li.innerHTML = `
+        <div class="flex justify-between items-center">
+            <div>
+                <p class="font-semibold text-gray-800">${serviceName}</p>
+                <p class="text-gray-600 text-sm">${hotlineNumber}</p>
+            </div>
+            <span class="text-gray-500 text-xs">${timeString}</span>
+        </div>
+        `;
+        historyList.appendChild(li);
+     
     }
 
     // call Clear History
