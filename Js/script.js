@@ -38,7 +38,7 @@ let coinCount = 100;
       const timeString = now.toLocaleTimeString();
 
       const li = document.createElement("li");
-      li.className = "flex justify-between border-b pb-1";
+      li.className = "flex justify-between  items-center bg-gray-100 rounded-lg p-2 shadow-sm";
       li.innerHTML = `
         <span>${serviceName} - ${hotlineNumber}</span>
         <span class="text-gray-500">${timeString}</span>
