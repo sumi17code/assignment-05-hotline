@@ -24,6 +24,31 @@ let coinCount = 100;
       });
     }
 
-    
+    function callService(serviceName, hotlineNumber) {
+      if (coinCount < 20) {
+        alert(" Not enough coins to make a call.");
+        return;
+      }
+      coinCount -= 20;
+      coinCountEl.textContent = coinCount;
+
+      alert(` Calling ${serviceName} (${hotlineNumber})`);
+
+      const now = new Date();
+      const timeString = now.toLocaleTimeString();
+
+      const li = document.createElement("li");
+      li.className = "flex justify-between border-b pb-1";
+      li.innerHTML = `
+        <span>${serviceName} - ${hotlineNumber}</span>
+        <span class="text-gray-500">${timeString}</span>
+      `;
+      historyList.appendChild(li);
+    }
+
+    // call Clear History
+    function clearHistory() {
+      historyList.innerHTML = "";
+    }
 
 
