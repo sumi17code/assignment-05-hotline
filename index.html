@@ -70,7 +70,7 @@
                 <div class=" bg-white px-[32px] py-[32px] rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/emergency.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4 ">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4 ">
                     </div>
                     <h1 class="font-semibold text-[24px]">National Emergency Number</h1>
                     <p class="text-gray-400 text-[18px]">National Emergency</p>
@@ -78,10 +78,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4 class="text-gray-400">All</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('999')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('National Emergency','999')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -92,7 +92,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/police.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">police Helpline Number</h1>
                     <p class="text-gray-400 text-[18px]">Police</p>
@@ -100,10 +100,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Police</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('999')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Police','999')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -114,7 +114,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/fire-service.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Fire Service Number</h1>
                     <p class="text-gray-400 text-[18px]">Fire Service</p>
@@ -122,10 +122,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Fire</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('999')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Fire Service','999')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -136,7 +136,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/ambulance.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img  onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Ambulance Service</h1>
                     <p class="text-gray-400 text-[18px]">Ambulance</p>
@@ -144,10 +144,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Health</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('1994-999999')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Ambulance','1994-999999')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -159,7 +159,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/maternity.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Women & Child Helpline</h1>
                     <p class="text-gray-400 text-[18px]">Women & Child Helpline</p>
@@ -167,10 +167,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Help</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('109')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Women & Child Helpline','109')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -181,7 +181,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/investigation.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Anti-Corruption Helpline</h1>
                     <p class="text-gray-400 text-[18px]">Anti-Corruption</p>
@@ -189,10 +189,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Govt.</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('106')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Anti-Corruption','106')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -203,7 +203,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/light-bulb.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Electricity Helpline</h1>
                     <p class="text-gray-400 text-[18px]">Electricity Outage</p>
@@ -211,10 +211,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Electricity</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('16216')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Electricity Outage','16216')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -225,7 +225,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/brac.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Brac Helpline</h1>
                     <p class="text-gray-400 text-[18px]">Brac</p>
@@ -233,10 +233,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>NGO</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('16445')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Brac','16445')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
@@ -247,7 +247,7 @@
                 <div class=" bg-white px-[32px] py-[32px]  rounded-xl shadow-lg hover:shadow-2xl transition">
                     <div class="flex justify-between">
                         <img src="assets/Bangladesh-Railway.png" alt="emergency" class="h-[30px] w-[30px] bg-[#FFE3E2] rounded-md">
-                        <img src="assets/like.png" alt="" class="h-4">
+                        <img onclick="increaseHeart()" src="assets/like.png" alt="" class="h-4">
                     </div>
                     <h1 class="font-semibold text-[24px]">Bangladesh Railway Helpline</h1>
                     <p class="text-gray-400 text-[18px]">Bangladesh Railway</p>
@@ -255,10 +255,10 @@
                     <div class="px-4 py-1.5 bg-gray-100 w-[61px] h-[37px] rounded-[50px] mb-[24px] mt-[2px]">
                         <h4>Travel</h4>
                     </div>
-                    <button class="btn btn-sm px-[16px] py-[16px]">
+                    <button onclick="copyNumber('163')" class="btn btn-sm px-[16px] py-[16px]">
                         <img src="assets/copy.png" alt="" class="w-6 h-4">Copy</button>
                     
-                    <button class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
+                    <button onclick="callService('Bangladesh Railway','163')" class="btn btn-sm bg-green-500 text-white px-[25px] py-[16px]">
                         <img src="assets/phone-call.png" alt="" class=" invert brightness-400">Call</button>
 
 
