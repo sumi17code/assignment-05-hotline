@@ -34,4 +34,9 @@ Answer:  In JavaScript Event Delegation means by attaching a single event listen
 It is useful because its better performance, dynamically added its children and it no need to attach listeners to every child.
 
 
-5. 
+5. What is the difference between preventDefault() and stopPropagation() methods?
+
+
+Answer:  The preventDefault() method stops the default action of an element .Like as it can stop a link <a> from its navigating or a form from submitting.
+
+        The stopPropagation() method stops the event from bubbling up to his parent.Like as a button clicked but it won't move up to parent elements.
